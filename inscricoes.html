@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscrições para Chef de Cozinha</title>   
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: green;
+            color: white;
+            padding: 20px;
+        }
+        form {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border: 2px solid green;
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+        input, select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        select {
+            appearance: auto;
+            -webkit-appearance: auto;
+            -moz-appearance: auto;
+        }
+        input[type="submit"] {
+            background-color: green;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        h1 {
+            color: white;
+            margin: 0%;
+            font-family: 'Times New Roman', Times;
+            font-style: italic;
+        }
+        h2 {
+            color: white;
+            margin: 0%;
+            font-family: 'Times New Roman', Times;
+            font-style: italic;
+        }
+        h3 {
+            color: white;
+            margin: 0%;
+            font-family: 'Times New Roman', Times;
+            font-style: italic;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inscrições Para Ser Um Chef de Cozinha!</h1>
+        <h2>Venha Fazer Parte Da Nossa Equipe!</h2>
+        <a href="site principal.html" style="color: white;"><h3>Site Principal</h3></a>
+    </header>
+
+    <form action="#" method="post">
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required>
+
+        <label for="idade">Idade:</label>
+        <input type="number" id="idade" name="idade" required>
+
+        <label for="sexo">Sexo:</label>
+        <select id="sexo" name="sexo" required>
+            <option value="">Selecione...</option>
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Feminino</option>
+        </select>
+
+        <label for="experiencia">Tempo de Experiência (anos):</label>
+        <input type="number" id="experiencia" name="experiencia" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="celular">Número de Celular:</label>
+        <input type="tel" id="celular" name="celular" required>
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" required>
+
+        <label for="estado">Estado:</label>
+        <select id="estado" name="estado" required>
+            <option value="">Selecione...</option>
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+        </select>
+
+        <label for="culinaria">Tipo de Culinária Forte:</label>
+        <select id="culinaria" name="culinaria" required>
+            <option value="">Selecione...</option>
+            <option value="Frutos do Mar">Frutos do Mar</option>
+            <option value="Carnes Vermelhas">Carnes Vermelhas</option>
+            <option value="Massas">Massas</option>
+            <option value="Lanches">Lanches</option>
+            <option value="Risotos">Risotos</option>
+            <option value="Comida Mexicana">Comida Mexicana</option>
+            <option value="Comida Árabe">Comida Árabe</option>
+            <option value="Comida Chinesa">Comida Chinesa</option>
+            <option value="Comida Japonesa">Comida Japonesa</option>
+            <option value="Comida Brasileira">Comida Brasileira</option>
+        </select>
+
+        <input type="submit" value="Enviar">
+    </form>
+   
+</body>
+</html>

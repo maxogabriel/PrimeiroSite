@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Site de Receitas</title>   
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: rgba(0, 128, 0, 0.8);
+            padding: 20px;
+        }
+        h3 {
+            color: black;
+            margin: 0; 
+        }
+        h1, h2 {
+            color: white;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 0%;
+        }
+        .recipe-container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: rgba(240, 240, 240, 0.8);
+            border: 2px solid green;
+            padding: 10px;
+            text-align: left;
+        }
+        .recipe {
+            display: flex;
+            align-items: flex-start; 
+            margin-bottom: 20px;
+        }
+        .recipe img {
+            width: 200px;
+            margin-right: 20px;
+        }
+        .recipe-description {
+            flex: 1;
+        }
+        .recipe-description h3 {
+            font-style: italic;
+            margin-top: 0;
+        }
+        .recipe-description p {
+            margin-bottom: 10px;
+        }
+        h4 {
+            margin: 0%;
+            font-style: italic;
+            color: white;
+            text-align: left;
+        }
+        .ingredientes {
+            margin-top: 0;
+            padding-left: 0; 
+            list-style-type: none; 
+        }
+        .ingredientes li {
+            margin-bottom: 5px; 
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Receitas Deliciosas do Chef</h1>
+        <h2>Explore nossas melhores receitas!</h2>
+        <h4><a href="site principal.html" style="color: white;">Site Principal</a></h4>
+    </header>
+
+    <div class="recipe-container">
+        <div class="recipe">
+            <img src="comida1.jpg" alt="Comida 1">
+            <div class="recipe-description">
+                <h3>Feijoada Baiana</h3>
+                <ul class="ingredientes">
+                    <li>Modo de Preparo</li>
+                    <li>1 - Na véspera, em uma tigela, coloque a orelha e os pés de porco e cubra-os com água fria. Troque a água 4 vezes durante esse tempo.</li>
+                    <li>2 - Em outra tigela, coloque a carne-seca e a costelinha de porco e cubra-as com água fria para dessalgar. Troque a água 4 vezes.</li>
+                    <li>3 - No dia seguinte, coloque o feijão em uma tigela, cubra com água e reserve por 1 hora.</li>
+                    <li>4 - Escorra a orelha, o pé de porco, a carne seca e a costelinha e coloque-os em uma panela de pressão cobertos com água fria. Tampe a panela e cozinhe por 15 minutos, contados a partir do início da pressão. Retire do fogo, aguarde sair todo o vapor e abra a panela. Escorra e reserve.</li>
+                    <li>5 - Na mesma panela, aqueça o óleo e doure a cebola. Junte a linguiça, o paio, o lombo e refogue por mais 3 minutos. Junte o feijão escorrido, as carnes pré-cozidas reservadas e a laranja.</li>
+                    <li>6 - Acrescente os cubos de caldo de bacon Arisco e água fervente. Tampe e cozinhe por 15 minutos, contados a partir do início da pressão.</li>
+                    <li>7 - Retire do fogo, aguarde sair todo o vapor e abra a panela. Retire a laranja e leve novamente ao fogo. Cozinhe em fogo baixo, com a panela parcialmente tampada (sem a pressão), por mais 30 minutos ou até engrossar o caldo e os ingredientes estarem cozidos.</li>
+                    <li>8 - Passe para uma travessa e sirva em seguida.</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="recipe">
+            <img src="comida2.jpg" alt="Comida 2">
+            <div class="recipe-description">
+                <h3>Frango Com Batata Frita E Legumes</h3>
+                <ul class="ingredientes">
+                    <li>Modo de Preparo</li>
+                    <li>1 - Com a quantidade que preferir de filé de peito de frango, tempere a gosto e deixe descansar na geladeira por pelo menos 2 horas.</li>
+                    <li>2 - Com o frango ja temperado, jogue-o em uma frigideira quente e deixe dourar de ambos os lados.</li>
+                    <li>3 - Separe o frango e com a mesma frigideira frite os legumes, pegando o sabor do frango até os legumes dourarem também.</li>
+                    <li>4 - Quando já tiverem dourado, retire-os e deixe separado juntamente com o frango.</li>
+                    <li>5 - Em uma panela alta e jogue 3 dedos de óleo e espere esquentar bem.</li>
+                    <li>6 - Com o óleo já quente, jogue suas batatas e fique mexendo e virando elas até dourarem e ficarem crocantes.</li>
+                    <li>7 - Depois que as batatas fritarem, separe-as em um recipiente com papel toalha para secar o óleo delas.</li>
+                    <li>8 - Monte seu prato e aprecie.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="recipe">
+            <img src="comida4.jpg" alt="Comida 4">
+            <div class="recipe-description">
+                <h3>Lasanha Italiana</h3>
+                <ul class="ingredientes">
+                    <li>Modo de Preparo</li>
+                    <li>1 - Coloque em uma panela o óleo, refogue a cebola, o alho, as azeitonas, o orégano e o cheiro-verde.</li>
+                    <li>2 - Coloque a carne moída e mexa, acrescente o Sazón e o sal.</li>
+                    <li>3 - Misture mais um pouco.</li>
+                    <li>4 - Por último coloque o molho de tomate e mexa.</li>
+                    <li>5 - Em uma travessa espalhe um pouco da carne</li>
+                    <li>6 - Coloque uma camada de massa</li>
+                    <li>7 - Uma camada de carne novamente</li>
+                    <li>8 - Uma camada de presunto</li>
+                    <li>9 - Uma camada de queijo mussarela</li>
+                    <li>10 - Uma de carne e assim por diante até terminar com uma camada de queijo ou de carne.</li>
+                    <li>11 -Forrar com folha de alumínio e levar ao forno por mais ou menos uns vinte e cinco minutos. Espete um garfo para ver se a massa já está mole.</li>
+                    <li>12 - Saboreie.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+   
+</body>
+</html>
